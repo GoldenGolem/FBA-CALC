@@ -1,0 +1,134 @@
+{
+  "appName": {
+    "message": "FBA Calculator for Amazon"
+  },
+  "appDesc": {
+    "message": "Obtenez de véritables frais FBA Fees en un seul clic gratuitement !"
+  },
+  "RUB": {
+    "message": "₽"
+  },
+  "USD": {
+    "message": "$"
+  },
+  "EUR": {
+    "message": "€"
+  },
+  "GBP": {
+    "message": "£"
+  },
+  "INR": {
+    "message": "₹"
+  },
+  "ILS": {
+    "message": "₪"
+  },
+  "marginImpact": {
+    "message": "Impact de marge"
+  },
+  "productCost": {
+    "message": "Coût du produit"
+  },
+  "shippingCost": {
+    "message": "Coût CPC"
+  },
+  "cpcCost": {
+    "message": "CPC Cost"
+  },
+  "productPrice": {
+    "message": "Prix du produit"
+  },
+  "productWeight": {
+    "message": "Poids du produit"
+  },
+  "productSize": {
+    "message": "Taille du produit"
+  },
+  "orderHandling": {
+    "message": "Gestion de la commande"
+  },
+  "monthlyStorage": {
+    "message": "Stockage mensuel"
+  },
+  "pickPack": {
+    "message": "Pick & Pack"
+  },
+  "weightHandling": {
+    "message": "Gestion du poids"
+  },
+  "referralFee": {
+    "message": "Commission pour recommandation"
+  },
+  "estimatedSales": {
+    "message": "Ventes mensuelles estimées"
+  },
+  "piece": {
+    "message": "pcs."
+  },
+  "totalFee": {
+    "message": "Total Frais FBA"
+  },
+  "estimatedRevenueTooltip": {
+    "message": "Revenus mensuels estimés basés sur les Ventes mensuelles estimées et l'impact de marge"
+  },
+  "estimatedRevenue": {
+    "message": "Rev mensuels estimés"
+  },
+  "tryScout": {
+    "message": "Essayez AMZScout PRO gratuitement!"
+  },
+  "fixedClosingFee": {
+    "message": "Frais de clôture fixe"
+  },
+  "variableClosingFee": {
+    "message": "Frais de clôture variable"
+  },
+  "deliveryFee": {
+    "message": "Frais de livraison"
+  },
+  "cessFee": {
+    "message": "Frais de service et Cess"
+  },
+  "roi": {
+    "message": "ROI"
+  },
+  "roiTooltip": {
+    "message": "Retour sur investissement"
+  },
+  "POUND": {
+    "message": "livres"
+  },
+  "GR": {
+    "message": "gr"
+  },
+  "KG": {
+    "message": "kilogrammes"
+  },
+  "INCH": {
+    "message": "pouce"
+  },
+  "CM": {
+    "message": "cm"
+  },
+  "dateFirstAvailable": {
+    "message": "La première date disponible"
+  },
+  "wrongPageErr": {
+    "message": "On dirait que nous sommes sur la mauvaise page.<br>Ouvrez la page produit Amazon et réessayez!"
+  },
+  "unsupportedDomainErr": {
+    "message": "Nous sommes désolés, mais ce domaine n'est actuellement pas pris en charge."
+  },
+  "pageLoadingErr": {
+    "message": "Il semble que la page ne s'est pas complètement chargée. Actualisez la page et réessayez."
+  },
+  "bannerText": {
+    "message": "Découvrez l'inventaire, les ventes mensuelles et l'historique des prix pour ces articles <a href='https://goo.gl/XXYRtp' target='_blank'>Gagne plus</a>"
+  },
+  "bannerTextBF1": {
+    "message": "Vendredi noir à AMZScout. Chaque petite information dont vous avez besoin pour réussir votre entreprise à 50% de réduction. <a href='https://goo.gl/VumfGC' target='_blank'>Trouver</a>"
+  },
+  "bannerTextBF2": {
+    "message": "Vendredi noir à AMZScout. Chaque petite information dont vous avez besoin pour réussir votre entreprise à 30% de réduction. <a href='https://goo.gl/2jauVC' target='_blank'>Trouver</a>"
+  }
+}

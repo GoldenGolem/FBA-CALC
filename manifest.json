@@ -1,0 +1,36 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 2,
+    "name": "__MSG_appName__",
+    "short_name": "FBA Calculator",
+    "description": "__MSG_appDesc__",
+    "version": "3.3.17",
+    "default_locale": "en",
+    "icons": {
+        "16": "img/16.png",
+        "48": "img/48.png",
+        "128": "img/128.png"
+    },
+    "page_action": {
+        "default_icon": "img/48.png",
+        "default_title": "FBA.SUPPORT",
+        "default_popup": "splash.html"
+    },
+    "author": "https://fba.support",
+    "homepage_url":"https://fba.support",
+    "background": {
+        "scripts": [ "background.js" ]
+    },
+    "permissions": ["storage", "activeTab", "declarativeContent", "<all_urls>", "tabs", "gcm", "identity", "*://*/", "webRequest", "webRequestBlocking", "https://checkout.stripe.com/checkout.js"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://checkout.stripe.com; object-src 'self'",
+    "web_accessible_resources": ["*"],
+    "content_scripts": [{
+        "matches": [
+            "*://www.amazon.co.jp/*", "*://www.amazon.ca/*", "*://www.amazon.co.uk/*", "*://www.amazon.com/*", "*://www.amazon.com.mx/*", "*://www.amazon.de/*", "*://www.amazon.it/*", "*://www.amazon.es/*", "*://www.amazon.fr/*", "*://www.amazon.in/*", "*://www.amazon.com.au/*", "*://sellercentral.amazon.com/*"
+        ],
+        "js": ["bundle.js"],
+        "css": ["bundle.css"],
+        "run_at": "document_start"
+    }]
+}

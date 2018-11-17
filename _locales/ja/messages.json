@@ -1,0 +1,134 @@
+{
+  "appName": {
+    "message": "Amazon用FBA計算機"
+  },
+  "appDesc": {
+    "message": "ワンクリックで実際のFBA料金を無料で入手！"
+  },
+  "RUB": {
+    "message": "₽"
+  },
+  "USD": {
+    "message": "$"
+  },
+  "EUR": {
+    "message": "€"
+  },
+  "GBP": {
+    "message": "£"
+  },
+  "INR": {
+    "message": "₹"
+  },
+  "ILS": {
+    "message": "₪"
+  },
+  "marginImpact": {
+    "message": "マージンの影響"
+  },
+  "productCost": {
+    "message": "製品コスト"
+  },
+  "shippingCost": {
+    "message": "輸送費"
+  },
+  "cpcCost": {
+    "message": "CPCコスト"
+  },
+  "productPrice": {
+    "message": "製品価格"
+  },
+  "productWeight": {
+    "message": "製品の重量"
+  },
+  "productSize": {
+    "message": "製品サイズ"
+  },
+  "orderHandling": {
+    "message": "注文処理"
+  },
+  "monthlyStorage": {
+    "message": "毎月の保管"
+  },
+  "pickPack": {
+    "message": "選別および梱包"
+  },
+  "weightHandling": {
+    "message": "重量の取り扱い"
+  },
+  "referralFee": {
+    "message": "紹介料"
+  },
+  "estimatedSales": {
+    "message": "月間売上高"
+  },
+  "piece": {
+    "message": "個数"
+  },
+  "totalFee": {
+    "message": "総FBA料金"
+  },
+  "estimatedRevenueTooltip": {
+    "message": "推定月間売上と利益率に基づく推定月次収益"
+  },
+  "estimatedRevenue": {
+    "message": "推定月次収益"
+  },
+  "tryScout": {
+    "message": "AMZScout PROを無料でお試しください！"
+  },
+  "fixedClosingFee": {
+    "message": "固定された閉会料"
+  },
+  "variableClosingFee": {
+    "message": "可変閉会料"
+  },
+  "deliveryFee": {
+    "message": "配達料"
+  },
+  "cessFee": {
+    "message": "サービス＆目的税手数料"
+  },
+  "roi": {
+    "message": "ROI"
+  },
+  "roiTooltip": {
+    "message": "投資収益率"
+  },
+  "POUND": {
+    "message": "ポンド"
+  },
+  "GR": {
+    "message": "グラム"
+  },
+  "KG": {
+    "message": "キログラム"
+  },
+  "INCH": {
+    "message": "インチ"
+  },
+  "CM": {
+    "message": "cm"
+  },
+  "dateFirstAvailable": {
+    "message": "初回入手可能日"
+  },
+  "wrongPageErr": {
+    "message": "間違ったページにいるようです。<br>Amazonの製品ページを開き、もう一度お試しください！"
+  },
+  "unsupportedDomainErr": {
+    "message": "申し訳ありませんが、現在このドメインはサポートされていません。"
+  },
+  "pageLoadingErr": {
+    "message": "ページが完全に読み込まれなかったようです。 ページを更新して、もう一度お試しください。"
+  },
+  "bannerText": {
+    "message": "これらの品目の在庫、月別販売価格、価格履歴を調べる <a href='https://goo.gl/XXYRtp' target='_blank'>もっと稼ぎます</a>"
+  },
+  "bannerTextBF1": {
+    "message": "AMZScoutでのブラックフライデー。 成功したビジネスに必要なあらゆるデータを50％割引で提供 <a href='https://goo.gl/VumfGC' target='_blank'>それを得る</a>"
+  },
+  "bannerTextBF2": {
+    "message": "AMZScoutでのブラックフライデー。 成功したビジネスに必要なあらゆるデータを30％割引で提供 <a href='https://goo.gl/2jauVC' target='_blank'>それを得る</a>"
+  }
+}

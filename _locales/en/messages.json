@@ -1,0 +1,155 @@
+{
+  "appName": {
+    "message": "FBA Calculator for Amazon"
+  },
+  "appDesc": {
+    "message": "Get real FBA Fees in one click for free!"
+  },
+  "RUB": {
+    "message": "₽"
+  },
+  "USD": {
+    "message": "$"
+  },
+  "EUR": {
+    "message": "€"
+  },
+  "GBP": {
+    "message": "£"
+  },
+  "INR": {
+    "message": "₹"
+  },
+  "ILS": {
+    "message": "₪"
+  },
+  "dateFirstAvailable": {
+    "message": "Date First Available"
+  },
+  "marginImpact": {
+    "message": "Margin Impact"
+  },
+  "productCost": {
+    "message": "Product Cost"
+  },
+  "shippingCost": {
+    "message": "Shipping Cost"
+  },
+  "cpcCost": {
+    "message": "CPC Cost"
+  },
+  "productPrice": {
+    "message": "Product Price"
+  },
+  "productWeight": {
+    "message": "Product Weight"
+  },
+  "productSize": {
+    "message": "Product Size"
+  },
+  "orderHandling": {
+    "message": "Order Handling"
+  },
+  "monthlyStorage": {
+    "message": "Monthly Storage"
+  },
+  "pickPack": {
+    "message": "Pick & Pack"
+  },
+  "weightHandling": {
+    "message": "Weight Handling"
+  },
+  "referralFee": {
+    "message": "Referral Fee"
+  },
+  "estimatedSales": {
+    "message": "Est Monthly Sales"
+  },
+  "piece": {
+    "message": "pcs."
+  },
+  "totalFee": {
+    "message": "Total FBA Fee"
+  },
+  "estimatedRevenueTooltip": {
+    "message": "Estimated monthly profit based on Estimated Monthly Sales and Margin Impact"
+  },
+  "estimatedRevenue": {
+    "message": "Est Monthly Profit"
+  },
+  "tryScout": {
+    "message": "Try AMZScout PRO for FREE!"
+  },
+  "getScout": {
+    "message": "Get AMZScout PRO for FREE!"
+  },
+  "getScoutQuestion": {
+    "message": "Do you already sell products on Amazon and ready to answer on few our questions by Skype?"
+  },
+  "getScoutReject": {
+    "message": "We are sorry, but currently we cannot offer our tool to you for free."
+  },
+  "fixedClosingFee": {
+    "message": "Fixed Closing Fee"
+  },
+  "variableClosingFee": {
+    "message": "Variable Closing Fee"
+  },
+  "deliveryFee": {
+    "message": "Delivery Fee"
+  },
+  "cessFee": {
+    "message": "Service & Cess Fees"
+  },
+  "roi": {
+    "message": "ROI"
+  },
+  "roiTooltip": {
+    "message": "Return on Investment (ROI) is the benefit to an Seller resulting from an investment of some product"
+  },
+  "POUND": {
+    "message": "pounds"
+  },
+  "GR": {
+    "message": "gr"
+  },
+  "KG": {
+    "message": "kilograms"
+  },
+  "INCH": {
+    "message": "inch"
+  },
+  "CM": {
+    "message": "cm"
+  },
+  "wrongPageErr": {
+    "message": "It looks like we are on the wrong page.<br>Open Amazon product page and try again!"
+  },
+  "unsupportedDomainErr": {
+    "message": "We are sorry, but this domain currently unsupported."
+  },
+  "pageLoadingErr": {
+    "message": "It looks like page didn't load completely. Refresh page and try again."
+  },
+  "bannerText": {
+    "message": "Find out the inventory, monthly sales and price history for these items <a href='https://goo.gl/XXYRtp' target='_blank'>Earn more</a>"
+  },
+  "bannerTextBF1": {
+    "message": "Black friday at AMZScout. Every little data you need for successful business at <b>50% discount</b>. <a href='https://goo.gl/VumfGC' target='_blank'>I want it</a>"
+  },
+  "bannerTextBF2": {
+    "message": "Black friday at AMZScout. Every little data you need for successful business at <b>30% discount</b>. <a href='https://goo.gl/2jauVC' target='_blank'>I want it</a>"
+  },
+  "bannerTextPY": {
+    "message": "<a href='https://goo.gl/43fdvT' target='_blank'></a>"
+  },
+  "bannerTextSS": {
+    "message": "Do you want to know product price at eBay while shopping on Amazon? <a href='https://goo.gl/67xS8n' target='_blank'>I want</a>"
+  },
+  "bannerTextStats": {
+    "message": "Do you want to know Amazon sellers inventory levels for free? <a href='https://goo.gl/rFZcHW' target='_blank'>I want</a>"
+  },
+  "bannerTextFBA": {
+    "message": "Do you want to get FBA support for free? <a href='https://fba.support' target='_blank'>I want</a>"
+  }
+}

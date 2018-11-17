@@ -1,0 +1,167 @@
+<draggable handler="header">
+    <div class="calc-wrap lang--{{ctrl.lang}}">
+
+        <header class="calc-wrap__header">
+            <img class="logo">
+            <a ng-click="ctrl.close()" class="btn btn--grey btn--square"><i class="i-close"></i></a>
+        </header>
+        <!--
+        <div ng-show="ctrl.banner" class="banner">
+            <div>
+                Do you want to get <strong>AMZScout Pro</strong> extension for FREE?
+            </div>
+            <div>
+                Do you already sell products on Amazon and ready to answer few our questions about the most painful moments in making biz on Amazon?
+            </div>
+            <div>
+                <a class="btn" href="javascript:void(0)" ng-click="ctrl.onBannerClick()">I'm in!</a>
+                <a class="btn btn-second" href="javascript:void(0)" ng-click="ctrl.onBannerClick()">No</a>
+            </div>
+        </div>
+        -->
+        <div ng-show="ctrl.error" class="error centered"><div ng-bind-html="ctrl.error|sanitize"></div></div>
+        <div ng-show="ctrl.loading && !ctrl.error" class="loader centered">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <main ng-show="ctrl.product && ctrl.fees" class="calc-wrap__main">
+            <div class="calc">
+                <div class="calc-row">
+                    <div class="calc-row__left">{{'productCost'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right"><input type="number" ng-change="ctrl.calculate()" ng-model="ctrl.costs.product"></div>
+                </div>
+                <div class="calc-row">
+                    <div class="calc-row__left">{{'shippingCost'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right"><input type="number" ng-change="ctrl.calculate()" ng-model="ctrl.costs.shipping"></div>
+                </div>
+                <div class="calc-row">
+                    <div class="calc-row__left">{{'cpcCost'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right"><input type="number" ng-change="ctrl.calculate()" ng-model="ctrl.costs.cpc"></div>
+                </div>
+
+                <div class="calc__sep"></div>
+
+                <div class="calc-row">
+                    <div class="calc-row__left">{{'productPrice'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right"><input type="number" ng-change="ctrl.calculate()" ng-model="ctrl.product.price"></div>
+                </div>
+                <div class="calc-row" ng-if="ctrl.product.shippingWeight">
+                    <div class="calc-row__left">{{'productWeight'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.weightUnit|i}}</div>
+                    <div class="calc-row__right">{{ctrl.product.shippingWeight|weight:ctrl.weightUnit}}</div>
+                </div>
+                <div class="calc-row" ng-if="ctrl.size.height">
+                    <div class="calc-row__left">{{'productSize'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.sizeUnit|i}}</div>
+                    <div class="calc-row__right">{{ctrl.size|size:ctrl.sizeUnit}}</div>
+                </div>
+                <div class="calc-row" ng-if="ctrl.dfa">
+                    <div class="calc-row__left">{{'dateFirstAvailable'|i}}</div>
+                    <div class="calc-row__center"></div>
+                    <div class="calc-row__right">{{ctrl.dfa|date}}</div>
+                </div>
+
+                <div class="calc__sep"></div>
+
+                <div class="calc-row" ng-show="ctrl.fees.orderHandlingFee">
+                    <div class="calc-row__left">{{'orderHandling'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right">{{ctrl.fees.orderHandlingFee|number:2}}</div>
+                </div>
+                <div class="calc-row" ng-show="ctrl.fees.storage">
+                    <div class="calc-row__left">{{'monthlyStorage'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right">{{ctrl.fees.storage|number:2}}</div>
+                </div>
+                <div class="calc-row" ng-show="ctrl.fees.pickAndPack">
+                    <div class="calc-row__left">{{'pickPack'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right">{{ctrl.fees.pickAndPack|number:2}}</div>
+                </div>
+                <div class="calc-row" ng-show="ctrl.fees.weightHandling">
+                    <div class="calc-row__left">{{'weightHandling'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right">{{ctrl.fees.weightHandling|number:2}}</div>
+                </div>
+                <div class="calc-row" ng-show="ctrl.fees.referral">
+                    <div class="calc-row__left">{{'referralFee'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right">{{ctrl.fees.referral|number:2}}</div>
+                </div>
+                <div class="calc-row" ng-show="ctrl.fees.closing">
+                    <div class="calc-row__left">{{'fixedClosingFee'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right">{{ctrl.fees.closing|number:2}}</div>
+                </div>
+                <div class="calc-row" ng-show="ctrl.fees.delivery">
+                    <div class="calc-row__left">{{'deliveryFee'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right">{{ctrl.fees.delivery|number:2}}</div>
+                </div>
+                <div class="calc-row" ng-show="ctrl.fees.cess">
+                    <div class="calc-row__left">{{'cessFee'|i}}</div>
+                    <div class="calc-row__center">{{ctrl.currency}}</div>
+                    <div class="calc-row__right">{{ctrl.fees.cess|number:2}}</div>
+                </div>
+                <div class="calc-row">
+                    <div class="calc-row__left">{{'estimatedSales'|i}}</div>
+                    <div class="calc-row__center">{{'piece'|i}}</div>
+                    <div class="calc-row__right"><input type="number" ng-model="ctrl.sales" ng-change="ctrl.calculate()"></div>
+                </div>
+
+                <div class="calc__sep"></div>
+
+                
+
+
+                <div class="calc__totals">
+                    <div class="calc-row">
+                        <div class="calc-row__left">{{'totalFee'|i}}</div>
+                        <div class="calc-row__center">{{ctrl.currency}}</div>
+                        <div class="calc-row__right"><span class="t-red">{{ctrl.fees.total|number:2}}</span></div>
+                    </div>
+                    <div class="calc-row">
+                        <div class="calc-row__left">{{'marginImpact'|i}}</div>
+                        <div class="calc-row__center">{{ctrl.currency}}</div>
+                        <div class="calc-row__right"><span ng-class="{'t-green': ctrl.fees.marginImpact > 0, 't-red': ctrl.fees.marginImpact <= 0}">{{ctrl.fees.marginImpact|number:2}}</span></div>
+                    </div>
+                    <div class="calc-row" ng-show="ctrl.fees.roi">
+                        <div class="calc-row__left" title="{{'roiTooltip'|i}}">{{'roi'|i}}</div>
+                        <div class="calc-row__center">%</div>
+                        <div class="calc-row__right">
+                            <span class="t-green" ng-class="{'t-green': ctrl.fees.roi > 0, 't-red': ctrl.fees.roi <= 0}">{{ctrl.fees.roi|number:2}}</span>
+                        </div>
+                    </div>
+                    <div class="calc-row" ng-show="ctrl.profit">
+                        <div class="calc-row__left" title="{{'estimatedRevenueTooltip'|i}}">{{'estimatedRevenue'|i}}</div>
+                        <div class="calc-row__center">{{ctrl.currency}}</div>
+                        <div class="calc-row__right"><span ng-class="{'t-green': ctrl.profit > 0, 't-red': ctrl.profit <= 0}">{{ctrl.profit|number:2}}</span></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!--<calc-footer></calc-footer>-->
+
+        <div class="modal">
+            <div class="modal__body">
+                <span class="modal__title"><mark>Need more</mark><br> product sales data?</span>
+                <span class="modal__subtitle">Take advantages of our FBA</span>
+                <div class="modal__footer">
+                    <img src="img/logo.svg" alt="amz-logo">
+                    <p>Get free access to the most<br>detailed information <mark>right now!</mark></p>
+                    <a href="#" class="btn">Try FBA for FREE!</a>
+                    <a href="#" class="remind-link">Remind me later</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</draggable>

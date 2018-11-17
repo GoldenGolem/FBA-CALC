@@ -1,0 +1,134 @@
+{
+  "appName": {
+    "message": "FBA Калькулятор для Amazon"
+  },
+  "appDesc": {
+    "message": "Узнайте комиссию FBA в один клик абсолютно бесплатно!"
+  },
+  "RUB": {
+    "message": "₽"
+  },
+  "USD": {
+    "message": "$"
+  },
+  "EUR": {
+    "message": "€"
+  },
+  "GBP": {
+    "message": "£"
+  },
+  "INR": {
+    "message": "₹"
+  },
+  "ILS": {
+    "message": "₪"
+  },
+  "marginImpact": {
+    "message": "Прибыль"
+  },
+  "productCost": {
+    "message": "Стоимость продукта"
+  },
+  "shippingCost": {
+    "message": "Стоимость доставки"
+  },
+  "cpcCost": {
+    "message": "Стоимость CPC"
+  },
+  "productPrice": {
+    "message": "Цена продукта"
+  },
+  "productWeight": {
+    "message": "Вес продукта"
+  },
+  "productSize": {
+    "message": "Размер продукта"
+  },
+  "orderHandling": {
+    "message": "Обработка заказа"
+  },
+  "monthlyStorage": {
+    "message": "Месячное хранение"
+  },
+  "pickPack": {
+    "message": "Сбор за упаковку"
+  },
+  "weightHandling": {
+    "message": "Сбор за вес"
+  },
+  "referralFee": {
+    "message": "Партнёрский сбор"
+  },
+  "estimatedSales": {
+    "message": "Прибл. месячные продажи"
+  },
+  "piece": {
+    "message": "шт."
+  },
+  "totalFee": {
+    "message": "Суммарный FBA сбор"
+  },
+  "estimatedRevenueTooltip": {
+    "message": "Приблизительный месячный доход основан на приблизительных месячных продажах и прибыли с одного товара"
+  },
+  "estimatedRevenue": {
+    "message": "Прибл. месячный доход"
+  },
+  "tryScout": {
+    "message": "Попробуйте AMZScout PRO БЕСПЛАТНО!"
+  },
+  "fixedClosingFee": {
+    "message": "Фикс. сбор закрытия"
+  },
+  "variableClosingFee": {
+    "message": "Пер. сбор закрытия"
+  },
+  "deliveryFee": {
+    "message": "Сбор за доставку"
+  },
+  "cessFee": {
+    "message": "Обслуживание и Cess"
+  },
+  "roi": {
+    "message": "ROI"
+  },
+  "roiTooltip": {
+    "message": "Возвратные инвестиции"
+  },
+  "POUND": {
+    "message": "фунты"
+  },
+  "GR": {
+    "message": "гр"
+  },
+  "KG": {
+    "message": "килограммы"
+  },
+  "INCH": {
+    "message": "дюйм"
+  },
+  "CM": {
+    "message": "см"
+  },
+  "dateFirstAvailable": {
+    "message": "Дата добавления на Amazon"
+  },
+  "wrongPageErr": {
+    "message": "Похоже, что мы на неправильной странице.<br>Откройте страницу продукта Amazon и повторите попытку!"
+  },
+  "unsupportedDomainErr": {
+    "message": "Мы сожалеем, но текущий домен не поддерживается."
+  },
+  "pageLoadingErr": {
+    "message": "Похоже, что страница не загрузилась полностью. Обновите страницу и повторите попытку."
+  },
+  "bannerText": {
+    "message": "Узнай продажи, количество товара на складе и историю цены на эти товары <a href='https://goo.gl/XXYRtp' target='_blank'>Заработай больше</a>"
+  },
+  "bannerTextBF1": {
+    "message": "Чёрная пятница на AMZScout! Каждый кусочек информации, необходимый для успешного бизнеса со скидкой 50%. <a href='https://goo.gl/VumfGC' target='_blank'>Забрать</a>"
+  },
+  "bannerTextBF2": {
+    "message": "Чёрная пятница на AMZScout! Каждый кусочек информации, необходимый для успешного бизнеса со скидкой 30%. <a href='https://goo.gl/2jauVC' target='_blank'>Получить</a>"
+  }
+}

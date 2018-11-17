@@ -1,0 +1,134 @@
+{
+  "appName": {
+    "message": "Trình tính toán FBA cho Amazon"
+  },
+  "appDesc": {
+    "message": "Có được Chi phí FBA thực sự chỉ bằng một cú nhấp chuột, không tốn phí!"
+  },
+  "RUB": {
+    "message": "₽"
+  },
+  "USD": {
+    "message": "$"
+  },
+  "EUR": {
+    "message": "€"
+  },
+  "GBP": {
+    "message": "£"
+  },
+  "INR": {
+    "message": "₹"
+  },
+  "ILS": {
+    "message": "₪"
+  },
+  "marginImpact": {
+    "message": "Tác động lợi nhuận"
+  },
+  "productCost": {
+    "message": "Chi phí sản phẩm"
+  },
+  "shippingCost": {
+    "message": "Giá vận chuyển"
+  },
+  "cpcCost": {
+    "message": "Chi phí CPC"
+  },
+  "productPrice": {
+    "message": "Giá sản phẩm"
+  },
+  "productWeight": {
+    "message": "Trọng lượng sản phẩm"
+  },
+  "productSize": {
+    "message": "Kích cỡ sản phẩm"
+  },
+  "orderHandling": {
+    "message": "Xử lí đơn hàng"
+  },
+  "monthlyStorage": {
+    "message": "Lưu trữ hàng tháng"
+  },
+  "pickPack": {
+    "message": "Chọn & đóng gói"
+  },
+  "weightHandling": {
+    "message": "Chọn & đóng gói"
+  },
+  "referralFee": {
+    "message": "Phí giới thiệu"
+  },
+  "estimatedSales": {
+    "message": "Doanh số ước tính hàng tháng"
+  },
+  "piece": {
+    "message": "cái."
+  },
+  "totalFee": {
+    "message": "Tổng chi phí FBA"
+  },
+  "estimatedRevenueTooltip": {
+    "message": "Lợi tức ước tính hàng tháng dựa trên Doanh số ước tính hàng tháng và Tác động lợi nhuận"
+  },
+  "estimatedRevenue": {
+    "message": "Lợi tức ước tính hàng tháng"
+  },
+  "tryScout": {
+    "message": "Dùng thử miễn phí AMZScout PRO!"
+  },
+  "fixedClosingFee": {
+    "message": "Phí đóng cố định"
+  },
+  "variableClosingFee": {
+    "message": "Phí đóng cửa biến"
+  },
+  "deliveryFee": {
+    "message": "Phí giao hàng"
+  },
+  "cessFee": {
+    "message": "Dịch vụ & sau trung học Phí"
+  },
+  "roi": {
+    "message": "ROI"
+  },
+  "roiTooltip": {
+    "message": "Hoàn lại vốn đầu tư"
+  },
+  "POUND": {
+    "message": "pao"
+  },
+  "GR": {
+    "message": "gram"
+  },
+  "KG": {
+    "message": "kilogam"
+  },
+  "INCH": {
+    "message": "inch"
+  },
+  "CM": {
+    "message": "cm"
+  },
+  "dateFirstAvailable": {
+    "message": "Ngày đầu tiên có hàng"
+  },
+  "wrongPageErr": {
+    "message": "Dường như chúng tôi đang ở trang không đúng.<br>Mở trang sản phẩm Amazon và thử lại!"
+  },
+  "unsupportedDomainErr": {
+    "message": "Chúng tôi rất tiếc, nhưng tên miền này hiện không được hỗ trợ."
+  },
+  "pageLoadingErr": {
+    "message": "Dường như trang đã không tải hoàn toàn. Làm mới lại trang và thử lại."
+  },
+  "bannerText": {
+    "message": "Tìm ra hàng tồn kho, doanh thu hàng tháng và lịch sử giá cho các mặt hàng này <a href='https://goo.gl/XXYRtp' target='_blank'>Kiếm nhiều hơn</a>"
+  },
+  "bannerTextBF1": {
+    "message": "Thứ sáu đen tại AMZScout. Mọi dữ liệu bạn cần cho kinh doanh thành công với giá giảm 50%. <a href='https://goo.gl/VumfGC' target='_blank'>Hiểu rồi</a>"
+  },
+  "bannerTextBF2": {
+    "message": "Thứ sáu đen tại AMZScout. Mọi dữ liệu bạn cần cho kinh doanh thành công với giá giảm 30%. <a href='https://goo.gl/2jauVC' target='_blank'>Hiểu rồi</a>"
+  }
+}

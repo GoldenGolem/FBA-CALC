@@ -1,0 +1,134 @@
+{
+  "appName": {
+    "message": "Amazon FBA 計算器"
+  },
+  "appDesc": {
+    "message": "一鍵免費獲取真實的 FBA 費用！"
+  },
+  "RUB": {
+    "message": "₽"
+  },
+  "USD": {
+    "message": "$"
+  },
+  "EUR": {
+    "message": "€"
+  },
+  "GBP": {
+    "message": "£"
+  },
+  "INR": {
+    "message": "₹"
+  },
+  "ILS": {
+    "message": "₪"
+  },
+  "marginImpact": {
+    "message": "利潤率影響"
+  },
+  "productCost": {
+    "message": "產品成本"
+  },
+  "shippingCost": {
+    "message": "运输费"
+  },
+  "cpcCost": {
+    "message": "CPC成本"
+  },
+  "productPrice": {
+    "message": "產品價格"
+  },
+  "productWeight": {
+    "message": "產品重量"
+  },
+  "productSize": {
+    "message": "產品尺寸"
+  },
+  "orderHandling": {
+    "message": "訂單處理"
+  },
+  "monthlyStorage": {
+    "message": "月儲存"
+  },
+  "pickPack": {
+    "message": "分揀包裝"
+  },
+  "weightHandling": {
+    "message": "重量處理"
+  },
+  "referralFee": {
+    "message": "介紹費"
+  },
+  "estimatedSales": {
+    "message": "估計月銷售額"
+  },
+  "piece": {
+    "message": "pcs."
+  },
+  "totalFee": {
+    "message": "總 FBA 費用"
+  },
+  "estimatedRevenueTooltip": {
+    "message": "基於估計月銷售額和利潤率影響的估計月收入"
+  },
+  "estimatedRevenue": {
+    "message": "估計月收入"
+  },
+  "tryScout": {
+    "message": "免費試用 AMZScout PRO！"
+  },
+  "fixedClosingFee": {
+    "message": "定休费"
+  },
+  "variableClosingFee": {
+    "message": "可变费用闭幕"
+  },
+  "deliveryFee": {
+    "message": "快递费"
+  },
+  "cessFee": {
+    "message": "服务及附加税费用"
+  },
+  "roi": {
+    "message": "ROI"
+  },
+  "roiTooltip": {
+    "message": "投资回报"
+  },
+  "POUND": {
+    "message": "磅"
+  },
+  "GR": {
+    "message": "克"
+  },
+  "KG": {
+    "message": "公斤"
+  },
+  "INCH": {
+    "message": "英寸"
+  },
+  "CM": {
+    "message": "厘米"
+  },
+  "dateFirstAvailable": {
+    "message": "第一次生效的日期"
+  },
+  "wrongPageErr": {
+    "message": "看起来我们在错误的页面。<br>打开Amazon产品页面，然后重试！"
+  },
+  "unsupportedDomainErr": {
+    "message": "很抱歉，该域名目前不受支持。"
+  },
+  "pageLoadingErr": {
+    "message": "看起来网页没有完全加载。 刷新页面，然后重试。"
+  },
+  "bannerText": {
+    "message": "找出这些项目的库存，每月销售额和价格历史 <a href='https://goo.gl/XXYRtp' target='_blank'>得到更多</a>"
+  },
+  "bannerTextBF1": {
+    "message": "AMZScout的黑色星期五。 您需要以50％的折扣获得成功的商业数据. <a href='https://goo.gl/VumfGC' target='_blank'>得到它</a>"
+  },
+  "bannerTextBF2": {
+    "message": "AMZScout的黑色星期五。 您需要以30％的折扣获得成功的商业数据. <a href='https://goo.gl/2jauVC' target='_blank'>得到它</a>"
+  }
+}
